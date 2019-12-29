@@ -1,6 +1,6 @@
 # chrono_period
 
-![Crates.io](https://img.shields.io/crates/v/chrono_period)
+[![Crate](https://img.shields.io/crates/v/chrono_period.svg)](https://crates.io/crates/chrono_period)
 ![Docs.rs](https://docs.rs/chrono_period/badge.svg?version=0.1.0)
 [![Build Status](https://travis-ci.org/jwir3/chrono_period.svg?branch=master)](https://travis-ci.org/jwir3/chrono_period)
 ![Maintenance](https://img.shields.io/maintenance/yes/2019)
