@@ -1,0 +1,22 @@
+language: rust
+sudo: false
+rust:
+- stable
+- beta
+- nightly
+os:
+- linux
+- osx
+matrix:
+  allow_failures:
+  - rust: nightly
+  include:
+  - rust: nightly
+  - rust: stable
+    os: osx
+  - rust: beta
+    os: osx
+notifications:
+  email: true
+  slack:
+    secure: FWmRvnM1iH50BBhEaZmZLYJ1po/BoFtBx5XTycx6rkStpG8cGYj5L6r8Ij1EuZatWXfY1a/J1L8igV19tZCNX8ton6hlMADT305CoYlLB9KBCEXT6XwZiB0jGpTlS8Sw3Ny9RUU+Ou7hDgmoWd32AaP3E7r6labr6H+giK522vZmHWOwn5u1P34j3tozwimSWsZijmCTJR8h/KfYHREPdNja75C5R+LG3uZbC1gh6RWJSxqedaWx3Ixi7DAU01ELm5KbHoeHjJ3C3hq5V/caAdfcj5kvFuN0Afeo4TwJMwgrC1G/iez2/+e33g7z3iIlAPIqbH0N7a7l97cBtHdK7lXGFn8NEqCpwVR2c0ZMOi5Ilay2s6d0I7i2FbBwxEvz8b/Wqyeg4B3ZKq0joGCx0pHs6u2Uh8SGm+EES0Z/yzBis78sqouTMGY6Kslh1nQBpOYEYdiYouxyR8l5IBRd6USRWIOHgxLZRXIdKRAZ1nGJmSZd3ISPEoeSu+Zxij0Ouh1t7VQxKwYto6LFvjFqxqmfY8U8F+wSyJ7MypwyQtHVmE8xQvAtYoSRFePXAFszDweW32zPoUdaQd+TFeAZ0jJ3skcS223ES+XVtq/0TgzYRX6jvvCagzjREPIlFs2OerYeOVhItP0VyzHEffH72kkscnhdkto38PRNnX4KNwA=

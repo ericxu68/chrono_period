@@ -1,5 +1,9 @@
 # chrono_period
 
+![Crates.io](https://img.shields.io/crates/v/chrono_period)
+![Docs.rs](https://docs.rs/chrono_period/badge.svg?version=0.1.0)
+[![Build Status](https://travis-ci.org/jwir3/chrono_period.svg?branch=master)](https://travis-ci.org/jwir3/chrono_period)
+
 An add-on for chrono that creates a period for tracking durations that have a specific start date.
 
 ## Installation
