@@ -15,3 +15,7 @@ readme = "README.md"
 
 [dependencies]
 chrono = "0.4.10"
+
+[badges]
+travis-ci = { repository = "jwir3/chrono_period", branch = "master" }
+maintenance = { status = "actively-developed" }
