@@ -2,7 +2,14 @@
 name = "chrono_period"
 version = "0.1.0"
 authors = ["Scott Johnson <jaywir3@gmail.com>"]
+description = "An add-on for chrono that creates a period for tracking durations that have a specific start date."
 edition = "2018"
+homepage = "http://www.github.com/jwir3/chrono_period"
+documentation = "http://docs.rs/chrono_period"
+repository = "http://www.github.com/jwir3/chrono_period"
+license-file = "LICENSE"
+keywords = ["date", "time", "calendar"]
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
