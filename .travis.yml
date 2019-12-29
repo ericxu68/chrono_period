@@ -1,0 +1,23 @@
+language: rust
+sudo: false
+rust:
+  - stable
+  - beta
+  - nightly
+os:
+  - linux
+  - osx
+matrix:
+  allow_failures:
+    - rust: nightly
+  include:
+    - rust: nightly
+    - rust: stable
+      os: osx
+    - rust: beta
+      os: osx
+
+notifications:
+  email: true
+  slack:
+    if: branch = master
