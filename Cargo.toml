@@ -14,7 +14,7 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-chrono = "0.4.24"
+chrono = "0.4.25"
 
 [badges]
 travis-ci = { repository = "jwir3/chrono_period", branch = "master" }
